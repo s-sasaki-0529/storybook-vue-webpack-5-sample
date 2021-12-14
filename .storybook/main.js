@@ -3,7 +3,7 @@ module.exports = {
     builder: "webpack5",
   },
   stories: ["../src/components/*.stories.js"],
-  addons: ["@storybook/addon-links", "@storybook/addon-essentials"],
+  addons: [],
   features: {
     storyStoreV7: true,
   },
